@@ -2,5 +2,9 @@
   "item.dukkitcraft.power": "First Item",
   "item.dukkitcraft.part": "Second Item",
 
+  "block.dukkitcraft.firstblock": "First Block",
+  "block.dukkitcraft.secondblock": "Second Block",
+  "block.dukkitcraft.thirdblock": "Third Block",
+
   "itemgroup.dctab": "DukkitCraft Tab"
 }

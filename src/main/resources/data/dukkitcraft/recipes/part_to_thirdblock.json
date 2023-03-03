@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "*": {
+      "item": "dukkitcraft:part"
+    },
+    "#": {
+      "item": "dukkitcraft:power"
+    }
+  },
+  "pattern": [
+    "***",
+    "*#*",
+    "***"
+  ],
+  "result": {
+    "item": "dukkitcraft:thirdblock"
+  }
+}
