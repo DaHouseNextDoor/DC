@@ -1,18 +1,21 @@
 package net.duck.dukkitcraft;
 
+import net.duck.dukkitcraft.item.ModItemGroup;
+import net.duck.dukkitcraft.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import static net.duck.dukkitcraft.item.ModItems.registerModItems;
+
 public class DukkitCraft implements ModInitializer {
-	public static final Logger LOGGER = LoggerFactory.getLogger("modid");
+	public static final String MOD_ID = "dukkitcraft";
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroup.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
