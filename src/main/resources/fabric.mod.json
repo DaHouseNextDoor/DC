@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "dukkitcraft",
+  "version": "${version}",
+
+  "name": "DukkitCraft",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Duck"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.duck.dukkitcraft.DukkitCraft"
+    ]
+  },
+  "mixins": [
+    "dukkitcraft.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
