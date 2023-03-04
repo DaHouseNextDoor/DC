@@ -13,6 +13,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 
@@ -20,16 +21,17 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
 
-    public static final Block FirstBlock = registerBlock("firstblock",
+    public static final Block uraniumBlock = registerBlock("uranium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0F).requiresTool()), ModItemGroup.dctab);
 
-    public static final Block SecondBlock = registerBlock("secondblock",
+    public static final Block uraniumOre = registerBlock("uranium_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4.0F).requiresTool(),
                     UniformIntProvider.create(2, 5)), ModItemGroup.dctab);//(2, 5) is xp amount.. can change it
                                                              //middle mouse click to find xp values for vanilla ores
 
-    public static final Block ThirdBlock = registerBlock("thirdblock",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(4.0F).requiresTool()), ModItemGroup.dctab);
+    public static final Block deepUraniumOre = registerBlock("deep_uranium_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4.0F).requiresTool(),
+                    UniformIntProvider.create(2, 5)), ModItemGroup.dctab);
 
     private static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name, block, group);

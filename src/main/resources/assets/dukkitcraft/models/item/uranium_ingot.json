@@ -1,6 +1,6 @@
 {
 "parent": "item/generated",
 "textures":{
-"layer0":"dukkitcraft:item/power"
+"layer0":"dukkitcraft:item/uranium_ingot"
 }
 }

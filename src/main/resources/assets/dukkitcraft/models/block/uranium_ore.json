@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "dukkitcraft:block/thirdblock"
+    "all": "dukkitcraft:block/uranium_ore"
   }
 }

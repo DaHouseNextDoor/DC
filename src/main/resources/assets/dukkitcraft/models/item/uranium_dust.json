@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures":{
-    "layer0":"dukkitcraft:item/part"
+    "layer0":"dukkitcraft:item/uranium_dust"
   }
 }

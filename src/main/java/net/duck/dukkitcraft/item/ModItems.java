@@ -11,9 +11,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item FirstItem = registerItem("power",
+    public static final Item uraniumIngot = registerItem("uranium_ingot",
             new Item(new FabricItemSettings()));
-    public static final Item SecondItem = registerItem("part",
+    public static final Item uraniumDust = registerItem("uranium_dust",
             new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item){
@@ -22,8 +22,8 @@ public class ModItems {
 
     public static void addItemsToItemGroup(){
        // Vanilla creative tabs -- addToItemGroup(ItemGroups.INGREDIENTS, FirstItem);
-        addToItemGroup(ModItemGroup.dctab, FirstItem);
-        addToItemGroup(ModItemGroup.dctab, SecondItem);
+        addToItemGroup(ModItemGroup.dctab, uraniumIngot);
+        addToItemGroup(ModItemGroup.dctab, uraniumDust);
     }
 
     private static void addToItemGroup(ItemGroup group, Item item){

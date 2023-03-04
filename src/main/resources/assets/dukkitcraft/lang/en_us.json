@@ -1,10 +1,10 @@
 {
-  "item.dukkitcraft.power": "First Item",
-  "item.dukkitcraft.part": "Second Item",
+  "item.dukkitcraft.uranium_ingot": "Uranium Ingot",
+  "item.dukkitcraft.uranium_dust": "Uranium Dust",
 
-  "block.dukkitcraft.firstblock": "First Block",
-  "block.dukkitcraft.secondblock": "Second Block",
-  "block.dukkitcraft.thirdblock": "Third Block",
+  "block.dukkitcraft.uranium_block": "Uranium Block",
+  "block.dukkitcraft.uranium_ore": "Uranium Ore",
+  "block.dukkitcraft.deep_uranium_ore": "Deepslate Uranium Ore",
 
   "itemgroup.dctab": "DukkitCraft Tab"
 }

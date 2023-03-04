@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dukkitcraft:part"
+                  "name": "dukkitcraft:uranium_block"
         }
       ]
     }

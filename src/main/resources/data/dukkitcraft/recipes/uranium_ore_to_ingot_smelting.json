@@ -2,9 +2,9 @@
   "type": "minecraft:smelting",
   "cookingtime": 200,
   "experience": 0.7,
-  "group": "part",
+  "group": "uranium",
   "ingredient": {
-    "item" : "dukkitcraft:power"
+    "item" : "dukkitcraft:uranium_ore"
   },
-  "result": "dukkitcraft:part"
+  "result": "dukkitcraft:uranium_ingot"
 }

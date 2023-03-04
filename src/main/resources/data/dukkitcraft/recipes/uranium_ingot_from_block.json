@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "dukkitcraft:firstblock"
+      "item": "dukkitcraft:uranium_block"
     }
   ],
   "result": {
-    "item": "dukkitcraft:power",
+    "item": "dukkitcraft:uranium_ingot",
     "count": 9
   }
 }

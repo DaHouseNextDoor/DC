@@ -13,6 +13,6 @@ public class ModItemGroup {
     public static void registerItemGroups(){
         dctab = FabricItemGroup.builder(new Identifier(DukkitCraft.MOD_ID, "dctab"))
                 .displayName(Text.translatable("itemgroup.dctab"))
-                .icon(() -> new ItemStack(ModItems.FirstItem)).build();
+                .icon(() -> new ItemStack(ModItems.uraniumIngot)).build();
     }
 }

@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "dukkitcraft:firstblock",
-    "dukkitcraft:secondblock",
-    "dukkitcraft:thirdblock"
+    "dukkitcraft:uranium_block",
+    "dukkitcraft:uranium_ore",
+    "dukkitcraft:deep_uranium_ore"
   ]
 }
